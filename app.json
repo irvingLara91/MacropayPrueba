@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "prueba-app",
+    "slug": "prueba-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0047ba"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "usesIcloudStorage": false,
+      "usesAppleSignIn": false,
+      "infoPlist": {
+        "UIUserInterfaceStyle": "Light"
+      },
+      "bundleIdentifier": "com.prueba.lara",
+      "userInterfaceStyle": "light"
+    },
+    "android": {
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.prueba.lara",
+      "useNextNotificationsApi": true,
+      "userInterfaceStyle": "light"
+    }
+  }
+}

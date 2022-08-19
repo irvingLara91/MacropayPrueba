@@ -1,0 +1,31 @@
+{
+  "cli": {
+    "version": ">= 0.54.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": {
+        "APP_ENV": "demo"
+      }
+    },
+    "preview": {
+      "distribution": "internal",
+      "android":{
+        "buildType":"apk"
+      },
+      "env": {
+        "APP_ENV": "prueba"
+      }
+    },
+    "production": {
+      "env": {
+        "APP_ENV": "prueba"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
